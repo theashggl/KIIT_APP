@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@drawable/back">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DEPARTMENT FACULTIES"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="373dp"
+            android:layout_height="133dp"
+            android:layout_gravity="center"
+            android:onClick="cse"
+            app:srcCompat="@drawable/cse" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="304dp"
+            android:layout_height="117dp"
+            android:layout_gravity="center"
+            android:onClick="etc"
+            app:srcCompat="@drawable/etc" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="300dp"
+            android:layout_height="143dp"
+            android:layout_gravity="center"
+            android:onClick="civil"
+            app:srcCompat="@drawable/civil" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="306dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:onClick="mech"
+            app:srcCompat="@drawable/mech" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="273dp"
+            android:layout_height="176dp"
+            android:layout_gravity="center"
+            android:onClick="management"
+            app:srcCompat="@drawable/management" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="392dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center"
+            android:onClick="med"
+            app:srcCompat="@drawable/med" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="273dp"
+            android:layout_height="153dp"
+            android:layout_gravity="center"
+            android:onClick="law"
+            app:srcCompat="@drawable/law" />
+
+
+        <Button
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:onClick="homepage"
+            android:text="home page"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+</ScrollView>
